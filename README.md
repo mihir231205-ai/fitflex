@@ -18,3 +18,4 @@ Choose Male/Female → rotate the body model → select a muscle → choose Home
 Additional pages: BMI Calculator, Diet Plan, Nutrition Checker, Fitness Goals, and About.
 
 Sample data lives in `src/data`. API adapters in `src/services/catalog.js` can be swapped for live nutrition, YouTube, exercise, and diet endpoints later.
+# fitflex
