@@ -20,7 +20,7 @@ export const MUSCLE_GROUPS = [
   {
     id: 'triceps',
     name: 'Triceps',
-    views: ['back', 'left', 'right'],
+    views: ['front', 'back', 'left', 'right'],
     description: 'Rear-arm muscles that complete every press and lockout.',
   },
   {

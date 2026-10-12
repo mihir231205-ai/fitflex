@@ -10,9 +10,11 @@ export default function VideoCards({ items, emptyText = 'No videos found.' }) {
           <div className="video-frame">
             <iframe
               title={item.name || item.title}
-              src={`https://www.youtube.com/embed/${item.youtubeId}`}
+              src={`https://www.youtube-nocookie.com/embed/${item.youtubeId}`}
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowFullScreen
+              loading="lazy"
+              referrerPolicy="strict-origin-when-cross-origin"
             />
           </div>
           <div className="card-body">
