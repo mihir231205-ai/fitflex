@@ -4,6 +4,7 @@ import { IMAGES } from '../data/images'
 export default function About() {
   return (
     <>
+    
       <section
         className="page-hero"
         style={{
